@@ -1,13 +1,18 @@
-# reprograma-CV
-Código criado para a página de currículos da {reprograma}
+# N2-reprograma-CV
+## N2- Semana de Carreira - Turma 2 | 2019 | CV
 
-## Para adicionar seu currículo:
-- Crie uma pasta com seu *nome_sobrenome* (como a pasta exemplo) dentro da pasta **students**.
-- Copie e cole o **cv_template.html** (que está dentro da pasta exemplo) e remeie com seu *nome_sobrenome*.
+1. Forkar o respositório fonte
+2. Clonar o repositório do seu github para sua máquina: `git clone url-do-repositorio-clonado` (no seu git)
+3. Verificar os repositórios que você está conectada localmente: `git remote -v`
+4. Conectar o repositório com a fonte: `git remote add upstream url-do-repositorio-fonte`(não é o seu repositório)
+5. Conferir se tá tudo certo...
+6. Criar branch: `git checkout -b nome-da-sua-branch`
+7. Codar loucamente....e depois
 
-![alt text](./assets/img/files.png)
+`git add .`
 
-### No index.html:
-- Em section class="students", substitua com seu nome o **id="student-name"** e o texto da div class="name".
-- Complete o link para a págino do seu currículo em **href="./students/"**
+`git commit -m "mensagem-sobre-o-que-foi-feito"`
 
+8. Atualizar a branch master(da fonte) antes de dar push:`git pull upstream master`
+9. Subir suas alterações: `git push origin nome-da-sua-branch`
+10. Agora é só fazer o Pull request do amor no seu repositório!
